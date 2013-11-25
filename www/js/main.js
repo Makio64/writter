@@ -656,8 +656,8 @@ StartScene = (function(_super) {
       if (this.down) {
         p = this.points[0];
         if (p.x >= 0) {
-          this.pen.position.x += (p.x - this.pen.position.x) * .35;
-          this.pen.position.y += (p.y - this.pen.position.y) * .35;
+          this.pen.position.x += (p.x - this.pen.position.x) * .55;
+          this.pen.position.y += (p.y - this.pen.position.y) * .55;
           dx = this.pen.position.x - p.x;
           dy = this.pen.position.y - p.y;
           distance = Math.sqrt(dx * dx + dy * dy);

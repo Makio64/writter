@@ -49,8 +49,8 @@ class StartScene extends AScene
 			if @down
 				p = @points[0]
 				if p.x>=0
-					@pen.position.x += (p.x-@pen.position.x)*.35
-					@pen.position.y += (p.y-@pen.position.y)*.35
+					@pen.position.x += (p.x-@pen.position.x)*.55
+					@pen.position.y += (p.y-@pen.position.y)*.55
 					dx = @pen.position.x - p.x
 					dy = @pen.position.y - p.y
 					distance = Math.sqrt(dx*dx+dy*dy)
